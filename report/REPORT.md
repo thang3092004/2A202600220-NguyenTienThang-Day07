@@ -50,25 +50,25 @@
 
 | # | Tên tài liệu | Nguồn | Số ký tự | Metadata đã gán |
 |---|--------------|-------|----------|-----------------|
-| 1 | suboi.md | RapViet Wiki | 6456 | |
-| 2 | mc_ill.md | RapViet Wiki | 4823 | |
-| 3 | karik.md | RapViet Wiki | 3868 | |
-| 4 | b_ray.md | RapViet Wiki | 3758 | |
-| 5 | rhymastic.md | RapViet Wiki | 3763 | |
-| 6 | young_h.md | RapViet Wiki | 3342 | |
-| 7 | phuc_du.md | RapViet Wiki | 2727 | |
-| 8 | icd.md | RapViet Wiki | 2328 | |
-| 9 | blacka.md | RapViet Wiki | 2198 | |
-| 10 | wowy.md | RapViet Wiki | 1520 | |
-| 11 | de_choat.md | RapViet Wiki | 1206 | |
-| 12 | minh_lai.md | RapViet Wiki | 1158 | |
+| 1 | suboi.md | RapViet Wiki | 6456 | rapper: Suboi, crew: Suboi Ent... |
+| 2 | mc_ill.md | RapViet Wiki | 4823 | rapper: MC ILL, crew: RVP |
+| 3 | karik.md | RapViet Wiki | 3868 | rapper: Karik, crew: MusicFace... |
+| 4 | b_ray.md | RapViet Wiki | 3758 | rapper: B Ray, crew: Under The Hood... |
+| 5 | rhymastic.md | RapViet Wiki | 3763 | rapper: Rhymastic, crew: SpaceSpeakers |
+| 6 | young_h.md | RapViet Wiki | 3342 | rapper: Young H, crew: Under The Hood |
+| 7 | phuc_du.md | RapViet Wiki | 2727 | rapper: Phúc Du, crew: 1989s Ent |
+| 8 | icd.md | RapViet Wiki | 2328 | rapper: ICD, crew: 7LD |
+| 9 | blacka.md | RapViet Wiki | 2198 | rapper: Blacka, crew: Hazard Clique |
+| 10 | wowy.md | RapViet Wiki | 1520 | rapper: Wowy, crew: SouthGanZ |
+| 11 | de_choat.md | RapViet Wiki | 1206 | rapper: Dế Choắt, crew: G5R |
+| 12 | minh_lai.md | RapViet Wiki | 1158 | rapper: Minh Lai, crew: Under The Hood |
 
 ### Metadata Schema
 
 | Trường metadata | Kiểu | Ví dụ giá trị | Tại sao hữu ích cho retrieval? |
 |----------------|------|---------------|-------------------------------|
-| | | | |
-| | | | |
+| `rapper` | String | "Suboi" | Giúp lọc chính xác thông tin về một nghệ sĩ cụ thể, tránh nhiễu từ các rapper khác. |
+| `crew` | String | "SpaceSpeakers" | Giúp truy xuất thông tin theo nhóm hoặc hãng đĩa, hữu ích cho các câu hỏi về tổ chức. |
 
 ---
 
@@ -182,11 +182,11 @@ Chạy 5 benchmark queries của nhóm trên implementation cá nhân của bạ
 
 | # | Query | Gold Answer |
 |---|-------|-------------|
-| 1 | Những rapper nào đã từng là kẻ thù của ICD? | Các rapper mâu thuẫn gồm: B2C, Sol'Bass, Hades, Locoboiz, Choi, Rick, Dabee, Hale, D Joker... |
-| 2 | Giới thiệu về Quán quân mùa 1 của chương trình Rap Việt. | Dế Choắt (Châu Hải Minh). |
-| 3 | Rapper từng rap cho Obama khi ông đến VN? | Suboi (Hàng Lâm Trang Anh). |
-| 4 | Những ai là người từng ẩu đả với rapper Blacka? | Young H và B Ray (năm 2016). |
-| 5 | Giới thiệu về một rapper từng học Đại Học Kiến Trúc HN. | Rhymastic (Vũ Đức Thiện). |
+| 1 | Những rapper nào đã từng là kẻ thù của ICD? | Dựa trên thông tin được cung cấp, các rapper và nhóm nhạc từng là đối thủ hoặc có mâu thuẫn (beef) với ICD bao gồm: B2C, Sol'Bass, Hades, Locoboiz, Choi, Rick, Dabee, Hale, D Joker. Ngoài ra, danh sách còn bao gồm những cái tên từng có mâu thuẫn nhưng hiện đã thay đổi trạng thái (như gạch chéo trong bảng) là Tage, MC ILL, RVP và Infamous. |
+| 2 | Giới thiệu về Quán quân mùa 1 của chương trình Rap Việt. | Dế Choắt (tên thật là Châu Hải Minh, sinh năm 1996) là một rapper xuất thân từ nghệ nhân xăm hình và là thành viên nổi bật của nhóm G5R, ghi dấu ấn bởi phong cách rap gai góc, đậm chất đời qua các bản hit như "Đời Con" hay "Nói Mày Nghe". Từ một "chiến binh" dày dạn kinh nghiệm trong giới Underground với những trận beef nảy lửa, anh đã đạt đến đỉnh cao sự nghiệp khi trở thành Quán quân mùa đầu tiên của chương trình Rap Việt dưới sự dẫn dắt của HLV Wowy. |
+| 3 | Rapper Việt Nam từng rap cho cựu Tổng thống Barrack Obama khi ông đến thăm Việt Nam là ai? | Rapper Việt Nam từng rap cho cựu Tổng thống Barack Obama khi ông đến thăm Việt Nam là Suboi (tên thật là Hàng Lâm Trang Anh). Được mệnh danh là "Nữ hoàng nhạc hip-hop" tại Việt Nam, Suboi không chỉ là nữ rapper tiên phong gặt hái được nhiều thành công trong nước mà còn gây ấn tượng mạnh mẽ với giới truyền thông quốc tế thông qua màn thể hiện trực tiếp trước vị cựu Tổng thống Mỹ. |
+| 4 | Những ai là người từng ẩu đả với rapper Blacka? | Rapper Blacka (Hồ Thiên Ân) từng xảy ra ẩu đả với hai người là Young H và B Ray. Sự việc này diễn ra vào năm 2016 do mâu thuẫn giữa cả ba người, trong đó Blacka đã đánh gãy mũi của B Ray. |
+| 5 | Giới thiệu về một rapper từng học Đại Học Kiến Trúc Hà Nội. | Rapper từng tốt nghiệp trường Đại học Kiến trúc Hà Nội chính là Rhymastic (tên thật là Vũ Đức Thiện, sinh năm 1991). Anh là một nghệ sĩ đa năng trong vai trò rapper, nhạc sĩ và nhà sản xuất âm nhạc thuộc nhóm SpaceSpeakers, nổi tiếng with khả năng sáng tác thượng thừa và các bản hit đình đám như "Yêu 5", "Yêu", góp phần quan trọng trong việc đưa dòng nhạc Underground đến gần hơn với khán giả đại chúng. |
 
 ### Kết Quả Của Tôi
 
@@ -205,10 +205,10 @@ Chạy 5 benchmark queries của nhóm trên implementation cá nhân của bạ
 ## 7. What I Learned (5 điểm — Demo)
 
 **Điều hay nhất tôi học được từ thành viên khác trong nhóm:**
-> *Viết 2-3 câu:*
+> Khi tôi chỉnh chunk size ngắn lại để tìm kiếm chi tiết hơn, tôi đã tìm đúng top-k nhưng lại bị mất thông tin ngữ cảnh quan trọng do size quá ngắn. Anh Tú cùng nhóm đã cùng tôi thử nghiệm nhiều mức size khác nhau để so sánh hiệu quả, từ đó giúp tôi chọn ra kích thước phù hợp nhất cho bài toán truy xuất thông tin rapper này.
 
 **Điều hay nhất tôi học được từ nhóm khác (qua demo):**
-> *Viết 2-3 câu:*
+> Điều hay nhất tôi học được khi quan sát các nhóm khác là việc sử dụng đa dạng các metric để đánh giá độ hiệu quả của quá trình retrieval một cách đầy đủ và khách quan hơn, thay vì chỉ dựa vào cảm tính hoặc một vài câu hỏi đơn lẻ.
 
 **Nếu làm lại, tôi sẽ thay đổi gì trong data strategy?**
 > Tôi sẽ tập trung hơn vào việc xử lý các bảng (tables) trong Markdown. Hiện tại khi chia nhỏ bằng ký tự, các bảng thông tin rapper thường bị nát ra, làm mất đi sự liên kết giữa các thuộc tính. Việc sử dụng một bộ "Markdown Splitter" chuyên dụng hoặc giữ kích thước chunk đủ lớn để chứa trọn một bảng metadata sẽ giúp kết quả truy xuất ổn định hơn.
@@ -219,12 +219,12 @@ Chạy 5 benchmark queries của nhóm trên implementation cá nhân của bạ
 
 | Tiêu chí | Loại | Điểm tự đánh giá |
 |----------|------|-------------------|
-| Warm-up | Cá nhân | / 5 |
-| Document selection | Nhóm | / 10 |
-| Chunking strategy | Nhóm | / 15 |
-| My approach | Cá nhân | / 10 |
-| Similarity predictions | Cá nhân | / 5 |
-| Results | Cá nhân | / 10 |
-| Core implementation (tests) | Cá nhân | / 30 |
-| Demo | Nhóm | / 5 |
-| **Tổng** | | **/ 100** |
+| Warm-up | Cá nhân | 5 / 5 |
+| Document selection | Nhóm | 10 / 10 |
+| Chunking strategy | Nhóm | 15 / 15 |
+| My approach | Cá nhân | 10 / 10 |
+| Similarity predictions | Cá nhân | 5 / 5 |
+| Results | Cá nhân | 10 / 10 |
+| Core implementation (tests) | Cá nhân | 30 / 30 |
+| Demo | Nhóm | 5 / 5 |
+| **Tổng** | | **100 / 100** |
