@@ -1,0 +1,69 @@
+Khởi tạo OpenAIEmbedder (text-embedding-3-small)...
+Đã tìm thấy 12 file tài liệu.
+Đã tạo 654 chunks từ tài liệu.
+Đang embedding và lưu vào store...
+Store size: 654
+
+==================================================
+BẮT ĐẦU CHẠY BENCHMARK QUERIES
+==================================================
+
+[Câu hỏi 1] Những rapper nào đã từng là kẻ thù của ICD?
+--- Câu trả lời kỳ vọng (Gold Answer):
+    Dựa trên thông tin được cung cấp, các rapper và nhóm nhạc từng là đối thủ hoặc có mâu thuẫn (beef) với ICD bao gồm: B2C, Sol'Bass, Hades, Locoboiz, Ch...
+--- Top 3 Retrieved Chunks:
+    1. Thẩm định: 0.704 | Nguồn: icd.md | Trích: 'họ. Một số ít rapper khi ấy đã reply hay diss ICD ...'
+    2. Thẩm định: 0.6538 | Nguồn: icd.md | Trích: 'khá nhiều rapper không reply ICD vì cho rằng anh ...'
+    3. Thẩm định: 0.633 | Nguồn: icd.md | Trích: '# ICD - Tiểu sử  ICD là 1 rapper kiêm producer ...'
+
+--- RAG Agent Answer (GPT-4o-mini):
+    I cannot answer this based on the retrieved context.
+--------------------------------------------------
+
+[Câu hỏi 2] Giới thiệu về Quán quân mùa 1 của chương trình Rap Việt.
+--- Câu trả lời kỳ vọng (Gold Answer):
+    Dế Choắt (tên thật là Châu Hải Minh, sinh năm 1996) là một rapper xuất thân từ nghệ nhân xăm hình và là thành viên nổi bật của nhóm G5R, ghi dấu ấn bở...
+--- Top 3 Retrieved Chunks:
+    1. Thẩm định: 0.6916 | Nguồn: de_choat.md | Trích: 'truyền hình này, trở thành quán quân mùa 1 của ...'
+    2. Thẩm định: 0.6478 | Nguồn: icd.md | Trích: 'và trở thành quán quân mùa một của King of Rap.  ...'
+    3. Thẩm định: 0.6263 | Nguồn: wowy.md | Trích: 'và á quân mùa 1 và 2.  | Thông tin | Chi tiết| ...'
+
+--- RAG Agent Answer (GPT-4o-mini):
+    I cannot answer this based on the retrieved context.
+--------------------------------------------------
+
+[Câu hỏi 3] Rapper Việt Nam từng rap cho cựu Tổng thống Barrack Obama khi ông đến thăm Việt Nam là ai?
+--- Câu trả lời kỳ vọng (Gold Answer):
+    Rapper Việt Nam từng rap cho cựu Tổng thống Barack Obama khi ông đến thăm Việt Nam là Suboi (tên thật là Hàng Lâm Trang Anh). Được mệnh danh là "Nữ ho...
+--- Top 3 Retrieved Chunks:
+    1. Thẩm định: 0.6624 | Nguồn: suboi.md | Trích: 'cho Cựu Tổng thống Barrack Obama nghe khi ông ghé ...'
+    2. Thẩm định: 0.5498 | Nguồn: suboi.md | Trích: ''rap' là gì. Vì thế tôi không biết người Việt Nam ...'
+    3. Thẩm định: 0.4955 | Nguồn: suboi.md | Trích: 'Rap Việt.  | Thông tin                        | ...'
+
+--- RAG Agent Answer (GPT-4o-mini):
+    Rapper Việt Nam từng rap cho cựu Tổng thống Barrack Obama khi ông đến thăm Việt Nam là Đen Vâu.
+--------------------------------------------------
+
+[Câu hỏi 4] Những ai là người từng ẩu đả với rapper Blacka?
+--- Câu trả lời kỳ vọng (Gold Answer):
+    Rapper Blacka (Hồ Thiên Ân) từng xảy ra ẩu đả với hai người là Young H và B Ray. Sự việc này diễn ra vào năm 2016 do mâu thuẫn giữa cả ba người, trong...
+--- Top 3 Retrieved Chunks:
+    1. Thẩm định: 0.5964 | Nguồn: rhymastic.md | Trích: 'khác như Dương Cầm, B Ray, LJ, Pjpo, Blacka,... ...'
+    2. Thẩm định: 0.5897 | Nguồn: blacka.md | Trích: 'dắt. Blacka là thành viên của G Family và giờ là ...'
+    3. Thẩm định: 0.5322 | Nguồn: rhymastic.md | Trích: 'Rapper<br>Ca sĩ<br>Producer<br>Giám khảo các cuộc ...'
+
+--- RAG Agent Answer (GPT-4o-mini):
+    I cannot answer this based on the retrieved context.
+--------------------------------------------------
+
+[Câu hỏi 5] Giới thiệu về một rapper từng học Đại Học Kiến Trúc Hà Nội.
+--- Câu trả lời kỳ vọng (Gold Answer):
+    Rapper từng tốt nghiệp trường Đại học Kiến trúc Hà Nội chính là Rhymastic (tên thật là Vũ Đức Thiện, sinh năm 1991). Anh là một nghệ sĩ đa năng trong ...
+--- Top 3 Retrieved Chunks:
+    1. Thẩm định: 0.6545 | Nguồn: rhymastic.md | Trích: 'nhạc chuyên nghiệp, với tư cách là một rapper, ...'
+    2. Thẩm định: 0.5802 | Nguồn: phuc_du.md | Trích: '| Nghề nghiệp | Rapper<br>Songwriter | | Rapname ...'
+    3. Thẩm định: 0.5777 | Nguồn: young_h.md | Trích: 'anh trở thành Rapper cá tính với những lời lẽ ...'
+
+--- RAG Agent Answer (GPT-4o-mini):
+    I cannot answer this based on the retrieved context.
+--------------------------------------------------

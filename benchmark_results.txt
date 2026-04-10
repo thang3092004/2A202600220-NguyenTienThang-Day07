@@ -1,0 +1,54 @@
+Khởi tạo LocalEmbedder...
+Đã tìm thấy 12 file tài liệu.
+Đã tạo 132 chunks từ tài liệu.
+Đang embedding và lưu vào store...
+Store size: 132
+
+==================================================
+BẮT ĐẦU CHẠY BENCHMARK QUERIES
+==================================================
+
+[Câu hỏi 1] Những rapper nào đã từng là kẻ thù của ICD?
+--- Câu trả lời kỳ vọng (Gold Answer):
+    Dựa trên thông tin được cung cấp, các rapper và nhóm nhạc từng là đối thủ hoặc có mâu thuẫn (beef) với ICD bao gồm: B2C, Sol'Bass, Hades, Locoboiz, Ch...
+--- Top 3 Retrieved Chunks:
+    1. Thẩm định: 0.754 | Nguồn: icd.md | Trích: '# ICD - Tiểu sử  ICD là 1 rapper kiêm producer chuyên nghiệp của 7LD. ICD từng không nổi tiếng trong...'
+    2. Thẩm định: 0.7297 | Nguồn: icd.md | Trích: 'Năm 2020, anh tham gia chương trình King of Rap và trở thành quán quân mùa một của King of Rap.  ICD...'
+    3. Thẩm định: 0.7163 | Nguồn: mc_ill.md | Trích: 'Thoạt nhìn, cái tên MC iLL không tạo nhiều ấn tượng cho thể loại “đao kiếm” trong rap. Nhưng khi xuấ...'
+--------------------------------------------------
+
+[Câu hỏi 2] Giới thiệu về Quán quân mùa 1 của chương trình Rap Việt.
+--- Câu trả lời kỳ vọng (Gold Answer):
+    Dế Choắt (tên thật là Châu Hải Minh, sinh năm 1996) là một rapper xuất thân từ nghệ nhân xăm hình và là thành viên nổi bật của nhóm G5R, ghi dấu ấn bở...
+--- Top 3 Retrieved Chunks:
+    1. Thẩm định: 0.6395 | Nguồn: suboi.md | Trích: '# Suboi - Tiểu sử  Hàng Lâm Trang Anh (sinh ngày 14 tháng 1 năm 1990), hay còn được biết đến với ngh...'
+    2. Thẩm định: 0.6252 | Nguồn: suboi.md | Trích: 'Minh, Suboi tiếp cận và yêu thích dòng nhạc hip hop kể từ khi cô chỉ mới 14 tuổi và bắt đầu trình di...'
+    3. Thẩm định: 0.6227 | Nguồn: blacka.md | Trích: 'Năm 2021, anh tham gia chương trình Rap Việt mùa 2, anh đã chọn về đội huấn luận viên Wowy sau khi đ...'
+--------------------------------------------------
+
+[Câu hỏi 3] Rapper Việt Nam từng rap cho cựu Tổng thống Barrack Obama khi ông đến thăm Việt Nam là ai?
+--- Câu trả lời kỳ vọng (Gold Answer):
+    Rapper Việt Nam từng rap cho cựu Tổng thống Barack Obama khi ông đến thăm Việt Nam là Suboi (tên thật là Hàng Lâm Trang Anh). Được mệnh danh là "Nữ ho...
+--- Top 3 Retrieved Chunks:
+    1. Thẩm định: 0.8276 | Nguồn: suboi.md | Trích: 'Cô từng rap cho Cựu Tổng thống Barrack Obama nghe khi ông ghé thăm Việt Nam  Năm 2018, Suboi được kê...'
+    2. Thẩm định: 0.7489 | Nguồn: suboi.md | Trích: 'Năm 2009, Suboi giành được nhiều chú ý từ khán giả sau hai ca khúc "Xin hãy thứ tha" và "Girls' Nigh...'
+    3. Thẩm định: 0.7452 | Nguồn: suboi.md | Trích: '# Suboi - Tiểu sử  Hàng Lâm Trang Anh (sinh ngày 14 tháng 1 năm 1990), hay còn được biết đến với ngh...'
+--------------------------------------------------
+
+[Câu hỏi 4] Những ai là người từng ẩu đả với rapper Blacka?
+--- Câu trả lời kỳ vọng (Gold Answer):
+    Rapper Blacka (Hồ Thiên Ân) từng xảy ra ẩu đả với hai người là Young H và B Ray. Sự việc này diễn ra vào năm 2016 do mâu thuẫn giữa cả ba người, trong...
+--- Top 3 Retrieved Chunks:
+    1. Thẩm định: 0.711 | Nguồn: blacka.md | Trích: 'Black có tham vọng có 13 đứa con khi đạt mốc 45 tuổi cùng với người bạn gái còn Cam và Pain đều nguy...'
+    2. Thẩm định: 0.6794 | Nguồn: karik.md | Trích: 'Theo con đường Rapper từ năm 2008 và chính thức biễu diễn chuyên nghiệp từ 2011– 2011, anh vinh dự l...'
+    3. Thẩm định: 0.6792 | Nguồn: suboi.md | Trích: 'Năm 2009, Suboi giành được nhiều chú ý từ khán giả sau hai ca khúc "Xin hãy thứ tha" và "Girls' Nigh...'
+--------------------------------------------------
+
+[Câu hỏi 5] Giới thiệu về một rapper từng học Đại Học Kiến Trúc Hà Nội.
+--- Câu trả lời kỳ vọng (Gold Answer):
+    Rapper từng tốt nghiệp trường Đại học Kiến trúc Hà Nội chính là Rhymastic (tên thật là Vũ Đức Thiện, sinh năm 1991). Anh là một nghệ sĩ đa năng trong ...
+--- Top 3 Retrieved Chunks:
+    1. Thẩm định: 0.7093 | Nguồn: karik.md | Trích: 'Cho đến giờ phút này có thể nói Karik là 1 trong những Rapper đầu tiên thành công cũng như đã thay đ...'
+    2. Thẩm định: 0.6832 | Nguồn: karik.md | Trích: 'Khi đến với nhạc rap Karik bị gia đỉnh phản đối, không được ủng hộ vì anh trai mình là người thành c...'
+    3. Thẩm định: 0.6803 | Nguồn: blacka.md | Trích: 'Nó học cũng giỏi ...8 năm liền đứng đầu khối  Học hành làm gì nữa , nó sẽ tự biến bản thân thành đầu...'
+--------------------------------------------------
